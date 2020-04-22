@@ -1,5 +1,9 @@
 var agora = new Date()
 var diaSem = agora.getDay()
+var hora = agora.getHours()
+var min = agora.getMinutes()
+var sec = agora.getSeconds()
+console.log(`Agora são exatamente ${hora}:${min}:${sec} horas`)
 /*
 .
 .      0 = Domingo
