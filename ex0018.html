@@ -27,28 +27,34 @@
       </div>
 
 
-
-
       <footer>
           <p>&copy; CursoemViedeo </p>
       </footer>
   </section>
 
     <script>
-        function contar(){
+        function contador(){
             let ini = document.getElementById('txti')
             let fim = document.getElementById('txtf')
             let passo = document.getElementById('txtp')
-            let res = document.getElementById('div#res')
+            let res = document.getElementById('res')
 
 
 
             if (ini.value.length == 0|| fim.value.length == 0 || passo.value.length == 0){
                 window.alert('[ERRO] Faltam dados!!')
             }else {
-                    res.innerHTML = 'Contando: '
-            }
-
+               res.innerHTML = 'Contando: '
+               var i = Number(ini.value)
+               var f = number(fim.value)
+               var p = number(passo.value)
+             
+             
+             
+             
+             
+            }   
+                   
         }
         
     </script> 
